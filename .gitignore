@@ -1,0 +1,39 @@
+# ---- Intel Quartus Prime generated files ----
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+.qsys_edit/
+PLLJ_PLLSPE_INFO.txt
+
+# Compilation / report artifacts
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.qws
+
+# Programming files (可由原始碼重新合成，不需版控)
+*.sof
+*.pof
+*.rbf
+*.jam
+*.jbc
+*.svf
+
+# Generated memory files (如需保留請手動移除此行)
+*.mif
+*.hex
+
+# Editor / OS
+*.bak
+*.orig
+*.rej
+*~
+*.swp
+.DS_Store
+Thumbs.db
