@@ -1,8 +1,8 @@
-# 亂數點名器 · Hardware Random Number Generator (FPGA Lab 1)
+# 亂數點名器 · LFSR Pseudorandom Draw Engine (FPGA Lab 1)
 
-A SystemVerilog hardware random number generator on the Terasic **DE2-115** (Intel Cyclone IV E) board. Press a button and the displayed number spins fast, then decelerates to a stop — a "slot-machine / lucky-draw" effect usable for random roll-call in class.
+A SystemVerilog **pseudorandom** draw engine on the Terasic **DE2-115** (Intel Cyclone IV E) board. Press a button and the displayed number spins fast, then decelerates to a stop — a "slot-machine / lucky-draw" effect usable for random roll-call in class.
 
-> NTUEE Logic Design Lab — Lab 1 (team10). An introductory lab focused on FSM design, an LFSR random source, button debouncing, and seven-segment display.
+> NTUEE Logic Design Lab — Lab 1 (team10). An introductory lab focused on FSM design, an LFSR source, button debouncing, and seven-segment display. The LFSR is deterministic and is **not** a cryptographic RNG or a physical true-random source.
 
 **English** | [繁體中文](#traditional-chinese)
 
@@ -99,9 +99,9 @@ MIT — see [LICENSE](./LICENSE).
 
 <a id="traditional-chinese"></a>
 
-# 中文版 · 亂數點名器
+# 中文版 · LFSR 偽亂數點名器
 
-於 Terasic **DE2-115**(Intel Cyclone IV E)開發板上,以 SystemVerilog 實作的硬體亂數產生器。按下按鍵後數字會先快速跳動、再逐漸減速停下,模擬「拉霸 / 抽籤」的效果,可用於課堂隨機點名。
+於 Terasic **DE2-115**(Intel Cyclone IV E)開發板上，以 SystemVerilog 實作的 **LFSR 偽亂數** 點名器。按下按鍵後數字會先快速跳動、再逐漸減速停下,模擬「拉霸 / 抽籤」的效果,可用於課堂隨機點名。
 
 > NTUEE 邏輯設計實驗 Lab 1(team10)。本專案為入門級實驗,重點在 FSM 設計、LFSR 亂數、按鍵防彈跳與七段顯示。
 
